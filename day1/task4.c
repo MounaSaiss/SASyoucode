@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main (){
-float  M;
-float Ta,totale;
+float M,Ta,totale;
 printf("Veuillez saisie un montant en dollars :");
 scanf("%f",&M);
 Ta=M*0.05;
