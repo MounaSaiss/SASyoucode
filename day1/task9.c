@@ -11,14 +11,13 @@ scanf("%f",&Taux_interet);
 printf("Veuillez saisir le paiement mensuel :");
 scanf("%f",&Paiment_mensuel);
 
-
 for (i=1;i<=12;i++){
    taux_mensuel=(Taux_interet/100)/12;
    somme_pret_taux=montant*taux_mensuel;
    SR=montant+somme_pret_taux-Paiment_mensuel; 
   
    printf ("Solde restant après mois %d paiement : %f\n",i,SR);
-montant=SR;
+   montant=SR;
 }
     return 0;
 }
