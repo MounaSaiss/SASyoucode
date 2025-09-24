@@ -2,9 +2,8 @@
 int main (){
     int h,m,T;
     printf ("Entrez l'heure (24h) : ");
-    scanf ("%d",&h);
-    printf("Veuillez saisir les minitues :");
-    scanf("%d",&m);
+    scanf ("%d:%d",&h,&m);
+    
     T=(h*60)+m;
 
 if (T>480 && T<574)
