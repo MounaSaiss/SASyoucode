@@ -1,7 +1,7 @@
 #include<stdbool.h>
 #include<stdio.h>
 int main (){
-    bool digit_seen[10]={false}; /*declarer un tableau en 10 dimense false mean that*/
+    bool digit_seen[10]={false}; 
     int digit ;
     long n ;
     long found = false; 
