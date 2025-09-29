@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 #ifndef FUCTIONS_H
 #define FUCTIONS_H
 #define maxAvion 100 
@@ -26,6 +26,12 @@ void FonctionModifier(Avion a[]);
 void FonctionRecherche(Avion a[]);
 void FonctionSuprime(Avion a[]);
 void afficheMenu();
+void FonctionTrie();
+void trieModel();
+void triCapacite();
+void RechId(Avion a[]);
+void rechercher_model(char  searched_model[30]);
+void FonctionRecherche(Avion a[]);
 
 
 
